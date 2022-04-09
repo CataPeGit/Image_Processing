@@ -102,22 +102,13 @@ int main()
     a.load(path);
     c.load("lena.ascii.pgm"); // ADD THE PROPER PATH
 
-    Point p1(256, 334);
-    Point p2(256, 93);
+    Point p1(200, 300);
+    Point p2(256, 300);
     Point p3(400, 50);
-    Point p4(34, 400);
-    Point p5(56, 456);
-    Point p6(300, 456);
-    Point p7(500, 500);
-    Point p8(200, 300);
-    Point p9(256, 300);
-    Point p10(40, 30);
-    Point p11(40, 80);
-
-    //draw::drawCircle(d, p1, 34, 155);
-    //draw::drawLine(d, p1, p2, 155);
-    //draw::drawRectangle(d, p1, p2, 155);
-
+    Point p4(300, 456);
+    Point p5(500, 500);
+    Point p6(40, 30);
+    Point p7(40, 80);
 
     ImageProcessing* process_img = new Gamma_correction(0.6);
     //ImageProcessing* process_img = new Brightness_and_contrast(1, 75);
@@ -125,13 +116,13 @@ int main()
 
     process_img->process(a, b);
 
+    /*
     draw::drawLine(b, p1, p2, 255);
     draw::drawCircle(b, p3, 34, 200);
     draw::drawRectangle(b, p4, p5, 255);
-    draw::drawRectangle(b, p6, p7, 255);
-    draw::drawLine(b, p8, p9, 255);
-    draw::drawLine(b, p10, p11, 255);     
-
+    draw::drawLine(b, p6, p7, 255);     
+    */
+    
     b.save("result_image.ascii.pgm"); // ADD THE PROPER PATH
     cout << "Done!";
     a.~Image();
