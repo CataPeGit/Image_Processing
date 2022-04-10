@@ -1,14 +1,14 @@
 # Image Processing
 
-Image processing C++ application that fulfills the following operations: 
-⦁	Brightness and contrast adjustment
-⦁	Gamma correction
-⦁	Image convolution
-⦁ Draw circle
-⦁ Draw line
-⦁ Draw rectangle
+Image processing C++ application that fulfills the following operations: <br />
+⦁	Brightness and contrast adjustment<br />
+⦁	Gamma correction<br />
+⦁	Image convolution<br />
+⦁ Draw circle<br />
+⦁ Draw line<br />
+⦁ Draw rectangle<br />
 
--Examples:<br />
+#-Examples:<br />
 ⦁	Starting images:<br />
 
 ![baboon](https://user-images.githubusercontent.com/74926354/162574117-e72ad545-ee05-47ce-8f4f-480582ccb096.png)
